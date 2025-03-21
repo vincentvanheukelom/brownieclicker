@@ -1,0 +1,66 @@
+body {
+  background-color: #28596a;
+  margin: 0;
+}
+
+header {
+  background-color: #1a1c33;
+  width: 100%;
+  top: -0em;
+  padding-top: 1em;
+}
+
+h1 {
+  color: #fffdea;
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+p {
+  color: #f6f82a;
+  font-size: 1.5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 2em;
+}
+
+button {
+  background-color: #28596a;
+  border-style: none;
+  margin-left: 30em;
+}
+
+button img {
+  width: 45em;
+}
+
+.menu {
+  width: 22em;
+  position: absolute;
+  right: 0;
+  bottom: 9em;
+  margin-right: 3em;
+}
+
+.shake {
+  animation: shake 0.3s ease-in-out;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  75% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
